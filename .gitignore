@@ -1,0 +1,13 @@
+# Logs
+*.log
+
+# Dossiers système
+.DS_Store
+
+# Fichiers temporaires
+*~
+*.swp
+*.swo
+
+# Fichiers de sauvegarde
+*.bak
