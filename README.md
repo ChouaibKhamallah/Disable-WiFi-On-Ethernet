@@ -2,6 +2,20 @@
 
 Un script NetworkManager qui désactive automatiquement le Wi-Fi lorsqu'une connexion Ethernet est détectée.
 
+## Pourquoi ce script est-il important ?
+
+Ce script répond à plusieurs besoins importants :
+
+1. **Économie d'énergie** - Désactiver le Wi-Fi lorsqu'il n'est pas nécessaire permet de réduire la consommation d'énergie, ce qui est particulièrement utile pour les ordinateurs portables fonctionnant sur batterie.
+
+2. **Sécurité réseau** - Réduire les interfaces réseau actives diminue la surface d'attaque potentielle de votre système. Une interface Wi-Fi inactive ne peut pas être exploitée.
+
+3. **Stabilité de la connexion** - Évite les problèmes de routage quand deux interfaces réseau sont actives simultanément, assurant que le trafic passe toujours par la connexion filaire plus stable et généralement plus rapide.
+
+4. **Automatisation** - Élimine la nécessité de désactiver manuellement le Wi-Fi lorsque vous vous connectez à un réseau filaire, puis de le réactiver quand vous vous déconnectez.
+
+5. **Simplicité d'utilisation** - Fonctionne en arrière-plan sans intervention de l'utilisateur, tout en fournissant des notifications pour informer des actions entreprises.
+
 ## Fonctionnalités
 
 - Désactive automatiquement le Wi-Fi lorsqu'une connexion Ethernet est active
